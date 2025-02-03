@@ -19,9 +19,9 @@
     --surface-color: #18181b;
     --stroke-color: #27272A;
     --text-color-primary: #f4f4f5;
-    --text-color-sencondary: #a1a1aa;
+    --text-color-secondary: #a1a1aa;
     --brand-color-primary: #f7b733;
-    --brand-color-sencondary: #fc4a1a;
+    --brand-color-secondary: #fc4a1a;
 
     --ff-sans: 'Inter', system-ui, sans-serif;
     --fw-base: 400;
@@ -47,6 +47,9 @@ html {
     font-size: var(--fs-base);
     line-height: 1.6;
     color: var(--text-color-primary);
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
 }
 
 body{
@@ -78,7 +81,7 @@ a{
 }
 
 a:hover{
-    background: linear-gradient(90deg, var(--brand-color-sencondary) 0%, var(--brand-color-primary) 100%);
+    background: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

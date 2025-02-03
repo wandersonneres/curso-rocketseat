@@ -11,7 +11,7 @@
 
     & p {
         font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans);
-        color: var(--text-color-sencondary);
+        color: var(--text-color-secondary);
         margin-top: 0.5rem;
     }
 
