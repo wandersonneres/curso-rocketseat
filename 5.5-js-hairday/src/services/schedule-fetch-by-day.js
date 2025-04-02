@@ -12,10 +12,8 @@ export async function scheduleFetchByDay({ date }) {
         const dailySchedules = data.filter((schedule) =>
             dayjs(date).isSame(dayjs(schedule.when), "day")
         );
-
-        console.log(dailySchedules)
-
-        return data
+        
+        return dailySchedules
     } catch (error) {
         console.error(error)
         alert("Erro ao buscar agendamentos")

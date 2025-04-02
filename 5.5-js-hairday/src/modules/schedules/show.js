@@ -16,7 +16,7 @@ export function schedulesShow({dailySchedules}){
             const time = document.createElement("strong")
             const name = document.createElement("span")
 
-            item.setAttribute("date-id", schedule.id)
+            item.setAttribute("data-id", schedule.id)
 
             time.textContent = dayjs(schedule.when).format("HH:mm")
 
